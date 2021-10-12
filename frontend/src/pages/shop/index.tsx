@@ -1,10 +1,16 @@
+import Head from 'next/head';
 import ProductList from '../../components/ProductList';
 
 const ShopPage: React.FC = () => {
   return (
-    <div className="container">
-      <ProductList />
-    </div>
+    <>
+      <Head>
+        <title>Shop | Arrow</title>
+      </Head>
+      <div className="container">
+        <ProductList />
+      </div>
+    </>
   );
 };
 

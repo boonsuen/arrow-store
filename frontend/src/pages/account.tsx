@@ -4,9 +4,9 @@ const ContactPage: React.FC = () => {
   return (
     <>
     <Head>
-        <title>Contact | Arrow</title>
+        <title>Account | Arrow</title>
       </Head>
-      <div className="container">Contact page</div>
+      <div className="container">Account page</div>
     </>
   );
 };
